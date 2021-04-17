@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sahaaya</title>
+		<style type="text/css">
+			body {
+				padding: 1px 10px 10px 10px;
+				width: 300px;
+				text-align: center;
+			}
+			button {
+				width: 100%;
+				margin-top: 10px;
+				padding: 15px;
+				font-weight: bold;
+				outline: none;
+				border: none;
+				border-radius: 25px;
+				cursor: pointer;
+				background: #ddd;
+			}
+			button.primary {
+				background: #1153FC;
+				color: white;
+			}
+			button.primary:hover {
+				background: #1153FC;
+			}
+			.enabled {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Sahaaya</h1>
+		<p>Sahaaya breathes life into your old web experience.</p>
+		<div class="enabled">
+			<button class="primary" id="enableSahaaya">Start Sahaya</button>			
+		</div>
+		<div class="disabled">
+			<button class="primary" id="disableSahaaya">Stop Sahaya</button>			
+		</div>
+		<button>Settings</button>
+		<script type="text/javascript" src="sahaaya.js"></script>
+	</body>
+</html>
